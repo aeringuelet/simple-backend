@@ -1,6 +1,7 @@
 {
     "name": "simple-backend",
     "version": "0.0.0",
+    "main": "src/index.ts",
     "private": true,
     "scripts": {
         "start:dev": "npx nodemon",
@@ -24,5 +25,8 @@
         "rimraf": "^5.0.1",
         "ts-node": "^10.9.1",
         "typescript": "^5.0.4"
+    },
+    "engines": {
+        "node": ">=16.0.0 <17.0.0"
     }
 }
