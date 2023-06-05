@@ -1,4 +1,4 @@
-import { Requester, Validator } from '@chainlink/external-adapter';
+import { Requester } from '@chainlink/external-adapter';
 const CLIMATIQ_API_KEY = process.env.CLIMATIQ_API_KEY;
 const CLIMATIQ_API_ENDPOINT = process.env.CLIMATIQ_API_ENDPOINT;
 
